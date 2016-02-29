@@ -20,7 +20,7 @@ function calculate() {
   var original = document.getElementById("original");
   var temp = original.value;
   //var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fF]([aA]|[aA][rR]?)?|[cC]([eE]\s*$/i;
-  //var regexp = /^\s*([-+]?\d+(\.\d*)?)([fF]([aA]|[aA][rR]?)?|[cC]?=([eE]|[lL]|[sS]|[iI]|[uU]|[sS])?)$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([f]([aA]|[aA][rR]?)?|[cC]([aA]|[aA][rR]?)?)\s*$/i;
   var m = temp.match(regexp);
 
   if (m) {
