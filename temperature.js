@@ -19,7 +19,7 @@ function calculate() {
   var result;
   var original = document.getElementById("original");
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([f]([a]|[a][r]?|[a][r][e]?|[a][r][e][n]?|[a][r][e][n][h]?|[a][r][e][n][h][e]?|[a][r][e][n][h][e][i]?|[a][r][e][n][h][e][i][t]?)?|[c]([e]|[e][l]?|[e][l][s]?|[e][l][s][i]?|[e][l][s][i][u]?|[e][l][s][i][u][s]?)?)\s*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([f]([a]|[a][r]?|(ar)[e]?|(are)[n]?|(aren)[h]?|(arenh)[e]?|(arenhe)[i]?|(arenhei)[t]?)?|[c]([e]|[e][l]?|(el)[s]?|(els)[i]?|(elsi)[u]?|(elsiu)[s]?)?)\s*$/i;
   var m = temp.match(regexp);
 
   if (m) {
