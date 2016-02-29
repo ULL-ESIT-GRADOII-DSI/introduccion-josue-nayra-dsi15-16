@@ -40,7 +40,7 @@ th, td
     text-align: center;
     vertical-align: top; 
     text-align: right;
-    font-size:normal; 
+    font-size:large; 
 } 
 .pie{
     width: 100%;
@@ -57,13 +57,13 @@ fieldset{
 { 
     color: green; 
     font-weight: bold; 
-    font-size:normal;          
+    font-size:large;          
     
 }
-input{
+input
+{
     margin-left: 20px;
 }
-
 
 #container{
     height:80%;

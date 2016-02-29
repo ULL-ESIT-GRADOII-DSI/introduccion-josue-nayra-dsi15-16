@@ -19,7 +19,7 @@ function calculate() {
   var result;
   var original = document.getElementById("original");
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fF]([aA]|[aA][rR]?|[aA][rR][eE]?|[aA][rR][eE][nN]?|[aA][rR]h[eE][nN][hH]?|[aA][rR]h[eE][nN][hH][eE]?|[aA][rR]h[eE][nN][hH][eE][iI]?|[aA][rR]h[eE][nN][hH][eE][iI][tT]?)?|[cC]([eE]|[eE][lL]?|[eE][lL][sS]?|[eE][lL][sS][iI]?|[eE][lL][sS][iI][uU]?|[eE][lL][sS][iI][uU][sS]?)?)\s*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([f]([a]|[a][r]?|[a][r][e]?|[a][r][e][n]?|[a][r][e][n][h]?|[a][r][e][n][h][e]?|[a][r][e][n][h][e][i]?|[a][r][e][n][h][e][i][t]?)?|[c]([e]|[e][l]?|[e][l][s]?|[e][l][s][i]?|[e][l][s][i][u]?|[e][l][s][i][u][s]?)?)\s*$/i;
   var m = temp.match(regexp);
 
   if (m) {
