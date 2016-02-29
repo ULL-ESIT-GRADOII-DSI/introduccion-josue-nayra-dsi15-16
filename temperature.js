@@ -19,15 +19,15 @@ function calculate() {
   var result;
   var original = document.getElementById("original");
   var temp = original.value;
-  //var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fF]([aA]|[aA][rR]?)?|[cC]([eE]\s*$/i;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([f]([aA]|[aA][rR]?)?|[cC]([aA]|[aA][rR]?)?)\s*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fF]([aA]|[aA][rR]?|[aA][rR][eE]?|[aA][rR][eE][nN]?|[aA][rR]h[eE][nN][hH]?|[aA][rR]h[eE][nN][hH][eE]?|[aA][rR]h[eE][nN][hH][eE][iI]?|[aA][rR]h[eE][nN][hH][eE][iI][tT]?)?|[cC]([eE]|[eE][lL]?|[eE][lL][sS]?|[eE][lL][sS][iI]?|[eE][lL][sS][iI][uU]?|[eE][lL][sS][iI][uU][sS]?)?)\s*$/i;
   var m = temp.match(regexp);
 
   if (m) {
     var num = m[1];
     var type = m[2];
     num = parseFloat(num);
-    if (type == 'c' || type == 'C') {
+  
+    if (type.startsWith("c") == true || type.startsWith("C") == true) {
       result = (num * 9/5)+32;
       result = result.toFixed(1)+" Fahrenheit";
     }
