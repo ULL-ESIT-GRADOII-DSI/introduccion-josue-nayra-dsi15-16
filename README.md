@@ -2,6 +2,9 @@
 
 ## Práctica: Conversor de temperatura en JavaScript de grados Celsius a Farenheit y viceversa
 
+### Enlace al campus de la asignatura
+* [Desarrollo de Sistemas Informáticos](https://campusvirtual.ull.es/my/)
+
 ### Integrantes:
 * Josué Toledo Castro.
 * María Nayra Rodríguez Pérez.
@@ -17,15 +20,15 @@
 * Uso de Gulp
 
 ### Páginas personales de gh-pages:
-* Josué Toledo Castro --> http://josuetc94.github.io/
-* María Nayra Rodríguez Pérez --> http://alu0100406122.github.io/
+* [Josué Toledo Castro](http://josuetc94.github.io/)
+* [María Nayra Rodríguez Pérez](http://alu0100406122.github.io/)
 
-### Despliegue en github.io
+### Repositorios en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/)
+* [Repositorio de la práctica en la organización](https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages)
+* [Fork del repositorio de la organización](https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16)
+* [Campus Virtual de la asignatura](https://campusvirtual.ull.es/my/)
 
-### Ejecutar las pruebas
+### Despligue de la práctica
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html)
+* [Conversor de Temperatura](http://ull-esit-gradoii-dsi.github.io/introduccion-josue-nayra-dsi15-16/)
