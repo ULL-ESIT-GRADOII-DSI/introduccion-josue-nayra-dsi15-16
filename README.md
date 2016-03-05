@@ -27,8 +27,11 @@
 
 * [Repositorio de la práctica en la organización](https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages)
 * [Fork del repositorio de la organización](https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16)
-* [Campus Virtual de la asignatura](https://campusvirtual.ull.es/my/)
 
 ### Despligue de la práctica
 
 * [Conversor de Temperatura](http://ull-esit-gradoii-dsi.github.io/introduccion-josue-nayra-dsi15-16/)
+
+### Desarrollo de la práctica
+#El desarrollo de la práctica se ha realizado principalmente en la rama GH-PAGES, aunque no es posible asignarla como rama por defecto por falta de permisos de administrador.
+
