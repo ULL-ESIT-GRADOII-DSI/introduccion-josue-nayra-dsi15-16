@@ -33,5 +33,5 @@
 * [Conversor de Temperatura](http://ull-esit-gradoii-dsi.github.io/introduccion-josue-nayra-dsi15-16/)
 
 ### Desarrollo de la práctica
-#El desarrollo de la práctica se ha realizado principalmente en la rama GH-PAGES, aunque no es posible asignarla como rama por defecto por falta de permisos de administrador.
+####El desarrollo de la práctica se ha realizado principalmente en la rama GH-PAGES, aunque no es posible asignarla como rama por defecto por falta de permisos de administrador.
 
